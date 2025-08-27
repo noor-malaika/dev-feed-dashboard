@@ -5,7 +5,7 @@ import httpx
 import requests
 import asyncio
 import time
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 
 app = FastAPI()
 
