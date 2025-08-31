@@ -1,7 +1,7 @@
 [project]
-name = "oops"
+name = "my_first_fastapi"
 version = "0.1.0"
-description = "Add your description here"
+description = "My first fastapi backend-service and react frontend-client"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
