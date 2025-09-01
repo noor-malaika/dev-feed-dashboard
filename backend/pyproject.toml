@@ -5,8 +5,15 @@ description = "My first fastapi backend-service and react frontend-client"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "black>=25.1.0",
     "fastapi>=0.116.1",
+    "flake8>=7.3.0",
     "httpx>=0.28.1",
+    "mypy>=1.17.1",
+    "pre-commit>=4.3.0",
+    "pylint>=3.3.8",
+    "pytest>=8.4.1",
     "requests>=2.32.5",
+    "tox>=4.29.0",
     "uvicorn>=0.35.0",
 ]
