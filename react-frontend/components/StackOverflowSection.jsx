@@ -28,7 +28,7 @@ export default function StackOverflowSection({ questions }) {
         gap: 1,
         mb: 3
       }}>
-        <QuestionAnswerIcon /> Stack Overflow
+        <QuestionAnswerIcon /> Hot Questions
       </Typography>
       <Grid container spacing={2}>
         {questions.map((question) => (

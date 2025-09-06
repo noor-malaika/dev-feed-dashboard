@@ -28,7 +28,7 @@ export default function GitHubSection({ repos }) {
         gap: 1,
         mb: 3
       }}>
-        <GitHubIcon /> GitHub Repositories
+        <GitHubIcon /> Trending Repositories
       </Typography>
       <Grid container spacing={2}>
         {repos.map((repo) => (

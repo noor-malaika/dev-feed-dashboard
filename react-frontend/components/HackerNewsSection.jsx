@@ -29,7 +29,7 @@ export default function HackerNewsSection({ stories }) {
         gap: 1,
         mb: 3
       }}>
-        <WhatshotIcon /> Hacker News
+        <WhatshotIcon /> Top Stories
       </Typography>
       <Grid container spacing={2}>
         {stories.map((story) => (
